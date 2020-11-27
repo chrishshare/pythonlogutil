@@ -1,4 +1,4 @@
-from utils.logUtil import init_logging
+from pythonlog.utils import init_logging
 import sys
 
 

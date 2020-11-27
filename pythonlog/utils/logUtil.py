@@ -3,8 +3,10 @@ import json
 import logging.config
 import os
 
+root_dir = os.path.dirname(os.path.dirname(__file__))
 
-def init_logging(path='../config/logger.json', level='logging.DEBUG'):
+
+def init_logging(path=root_dir + os.sep+'config/logger.json', level='logging.DEBUG'):
     if os.path.exists(path):
         with open(path, 'r', encoding='utf-8') as f:
             config = json.load(f)
