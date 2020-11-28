@@ -15,7 +15,7 @@ setup(
     description="log tools",
     license="MIT",
     keywords="log logs logutil",
-    url="https://github.com/yeongbin-jo/python-chromedriver-autoinstaller",
+    url="https://github.com/chrishshare/pythonlogutil.git",
     packages=find_packages(),  # include all packages under src
     # package_dir={"": "pythonlog"},
     package_data={"pythonlog": ["config/logger.json"]}
