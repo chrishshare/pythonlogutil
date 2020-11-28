@@ -1,5 +1,5 @@
 # pythonlogutil
-#使用说明
+python日志工具
 ## 安装
 ```
 pip install pythonlog
