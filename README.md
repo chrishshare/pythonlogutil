@@ -29,7 +29,7 @@ testssss()
 from pythonlog.utils.logUtil import init_logging
 
 def testssss():
-    logger = init_logging(path='path/*.json')
+    logger = init_logging(cf='path/*.json')
     logger.debug('eee')
 
 testssss()
